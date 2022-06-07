@@ -1,11 +1,11 @@
-package com.poe.demotesunitaire.caltulator;
+package com.poe.demotestsunitaires.caltulator;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
  */
 
-import com.poe.demotestunitaire.demotestunitaire.Calculator;
+import com.poe.demotestdunitaired.calculator.Calculator;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
