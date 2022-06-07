@@ -21,4 +21,7 @@ public class Calculator {
            return b;
        }*/
    }
+    public int dividende(int number, int divider) {
+        return number / divider;
+    }
 }

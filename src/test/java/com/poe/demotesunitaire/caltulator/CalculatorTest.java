@@ -81,5 +81,21 @@ public class CalculatorTest {
         assertEquals(result, 12);
         
     }
+    @Test
+     public void testDivideWithInResult(){
+        Calculator calculator = new Calculator();
+        int result = calculator.dividende(12,6);
+        assertEquals(result, 2);
+        
+    }
+     @Test
+    public void testDivideWithFloatResult(){
+        Calculator calculator = new Calculator();
+        
+        int result = calculator.dividende(10, 3);
+        System.out.println(result);
+        
+        assertEquals(10/3, result);
+    }
 
 }

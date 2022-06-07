@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.poe.demotesunitaire.caltulator.CalculatorTest" time="0.04" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.poe.demotesunitaire.caltulator.CalculatorTest" time="0.028" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,9 +15,9 @@
     <property name="user.country" value="FR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.3\bin"/>
-    <property name="sun.java.command" value="C:\Users\cocot\AppData\Local\Temp\surefire7353959419832529442\surefirebooter11222260525652461366.jar C:\Users\cocot\AppData\Local\Temp\surefire7353959419832529442 2022-06-07T14-25-47_309-jvmRun1 surefire15109573938985000142tmp surefire_02907799731017972466tmp"/>
+    <property name="sun.java.command" value="C:\Users\cocot\AppData\Local\Temp\surefire9330210039769332937\surefirebooter3613799218940800323.jar C:\Users\cocot\AppData\Local\Temp\surefire9330210039769332937 2022-06-07T15-07-43_773-jvmRun1 surefire10754303715720617088tmp surefire_011988839457462188459tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="com.poe.demotesunitaire.caltulator.CalculatorTest"/>
+    <property name="test" value="com.poe.demotesunitaire.caltulator.CalculatorTest#testDivideWithFloatResult"/>
     <property name="surefire.test.class.path" value="D:\mesProjetsOclock\POE\JUnit\DemoTestUnitaire\target\test-classes;D:\mesProjetsOclock\POE\JUnit\DemoTestUnitaire\target\classes;C:\Users\cocot\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\cocot\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\cocot\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\cocot\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\cocot\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\cocot\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\cocot\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\cocot"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\cocot\AppData\Local\Temp\surefire7353959419832529442\surefirebooter11222260525652461366.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\cocot\AppData\Local\Temp\surefire9330210039769332937\surefirebooter3613799218940800323.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.3+8-LTS-111"/>
@@ -58,12 +58,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testAddMoinsCinqAndMoins4retourneMoinsNeuf" classname="com.poe.demotesunitaire.caltulator.CalculatorTest" time="0.025"/>
-  <testcase name="testAdd2plus1retourne3" classname="com.poe.demotesunitaire.caltulator.CalculatorTest" time="0"/>
-  <testcase name="testMaxBetweenOneAndTwo" classname="com.poe.demotesunitaire.caltulator.CalculatorTest" time="0"/>
-  <testcase name="testMaxBetweenSamesValues" classname="com.poe.demotesunitaire.caltulator.CalculatorTest" time="0"/>
-  <testcase name="testAdd3plus2retourne5" classname="com.poe.demotesunitaire.caltulator.CalculatorTest" time="0"/>
-  <testcase name="testAdd0plus0retourne0" classname="com.poe.demotesunitaire.caltulator.CalculatorTest" time="0"/>
-  <testcase name="testMaxValue" classname="com.poe.demotesunitaire.caltulator.CalculatorTest" time="0.001"/>
-  <testcase name="testGrandNombres" classname="com.poe.demotesunitaire.caltulator.CalculatorTest" time="0.002"/>
+  <testcase name="testDivideWithFloatResult" classname="com.poe.demotesunitaire.caltulator.CalculatorTest" time="0.024"/>
 </testsuite>
