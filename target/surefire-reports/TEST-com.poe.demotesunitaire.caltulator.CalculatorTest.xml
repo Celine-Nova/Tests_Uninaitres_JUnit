@@ -4,7 +4,7 @@
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\cocot\Documents\POE JAVA\DemoTestUnitaire\target\test-classes;C:\Users\cocot\Documents\POE JAVA\DemoTestUnitaire\target\classes;C:\Users\cocot\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\cocot\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\cocot\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\cocot\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\cocot\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\cocot\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\cocot\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="java.class.path" value="D:\mesProjetsOclock\POE\JUnit\DemoTestUnitaire\target\test-classes;D:\mesProjetsOclock\POE\JUnit\DemoTestUnitaire\target\classes;C:\Users\cocot\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\cocot\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\cocot\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\cocot\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\cocot\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\cocot\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\cocot\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,10 +15,10 @@
     <property name="user.country" value="FR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.3\bin"/>
-    <property name="sun.java.command" value="C:\Users\cocot\AppData\Local\Temp\surefire12054609501572121646\surefirebooter16205239351294083053.jar C:\Users\cocot\AppData\Local\Temp\surefire12054609501572121646 2022-06-07T11-24-01_586-jvmRun1 surefire8181286148551273272tmp surefire_03769139758983439270tmp"/>
+    <property name="sun.java.command" value="C:\Users\cocot\AppData\Local\Temp\surefire16789377859275717005\surefirebooter13766077553448630083.jar C:\Users\cocot\AppData\Local\Temp\surefire16789377859275717005 2022-06-07T13-39-11_288-jvmRun1 surefire12227200220858065107tmp surefire_02725359732852839553tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="com.poe.demotesunitaire.caltulator.CalculatorTest#testAdd"/>
-    <property name="surefire.test.class.path" value="C:\Users\cocot\Documents\POE JAVA\DemoTestUnitaire\target\test-classes;C:\Users\cocot\Documents\POE JAVA\DemoTestUnitaire\target\classes;C:\Users\cocot\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\cocot\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\cocot\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\cocot\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\cocot\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\cocot\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\cocot\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="test" value="com.poe.demotesunitaire.caltulator.CalculatorTest#testGrandNombres"/>
+    <property name="surefire.test.class.path" value="D:\mesProjetsOclock\POE\JUnit\DemoTestUnitaire\target\test-classes;D:\mesProjetsOclock\POE\JUnit\DemoTestUnitaire\target\classes;C:\Users\cocot\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\cocot\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\cocot\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\cocot\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\cocot\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\cocot\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\cocot\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\cocot"/>
     <property name="user.language" value="fr"/>
@@ -26,12 +26,12 @@
     <property name="java.version.date" value="2022-04-19"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17.0.3"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\cocot\Documents\POE JAVA\DemoTestUnitaire"/>
+    <property name="basedir" value="D:\mesProjetsOclock\POE\JUnit\DemoTestUnitaire"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\cocot\AppData\Local\Temp\surefire12054609501572121646\surefirebooter16205239351294083053.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\cocot\AppData\Local\Temp\surefire16789377859275717005\surefirebooter13766077553448630083.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.3+8-LTS-111"/>
@@ -46,7 +46,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\cocot\AppData\Local\Temp\"/>
     <property name="java.version" value="17.0.3"/>
-    <property name="user.dir" value="C:\Users\cocot\Documents\POE JAVA\DemoTestUnitaire"/>
+    <property name="user.dir" value="D:\mesProjetsOclock\POE\JUnit\DemoTestUnitaire"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -58,5 +58,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testAdd" classname="com.poe.demotesunitaire.caltulator.CalculatorTest" time="0.024"/>
+  <testcase name="testGrandNombres" classname="com.poe.demotesunitaire.caltulator.CalculatorTest" time="0.023"/>
 </testsuite>
