@@ -12,4 +12,13 @@ public class Calculator {
    public int add(int a, int b) {
         return a + b;
     }
+   public int maxValue(int a, int b){
+       //Condition ternaire
+       return a > b ? a : b;
+      /* if(a > b ){
+           return a;
+       }else{
+           return b;
+       }*/
+   }
 }

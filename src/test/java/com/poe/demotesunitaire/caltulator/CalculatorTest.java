@@ -60,6 +60,26 @@ public class CalculatorTest {
         
         assertTrue(result == 15000);
     }
-
+     @Test
+    public void testMaxValue() {
+        Calculator calculator = new Calculator();
+         
+        int result = calculator.maxValue(2200, 13598);
+        assertEquals(result, 13598);
+    }
+     @Test
+    public void testMaxBetweenOneAndTwo() {
+        Calculator calculator = new Calculator();
+        
+        int result = calculator.maxValue(-2200, -13598);
+        assertEquals(result, -2200);
+    }
+    @Test
+    public void testMaxBetweenSamesValues(){
+        Calculator calculator = new Calculator();
+        int result = calculator.maxValue(12,12);
+        assertEquals(result, 12);
+        
+    }
 
 }
