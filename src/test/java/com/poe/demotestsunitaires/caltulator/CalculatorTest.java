@@ -97,5 +97,11 @@ public class CalculatorTest {
         
         assertEquals(10/3, result);
     }
-
+    @Test
+    public void tesDivideWithDivideAsZero(){
+        Calculator calculator = new Calculator();
+        assertThrows(ArithmeticException.class, () ->{
+            calculator.dividende(10,0);
+        });
+    }
 }
