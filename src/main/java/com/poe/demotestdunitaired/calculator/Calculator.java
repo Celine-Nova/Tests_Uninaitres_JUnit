@@ -4,6 +4,8 @@
  */
 package com.poe.demotestdunitaired.calculator;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Celine-Nova
@@ -23,5 +25,14 @@ public class Calculator {
    }
     public int dividende(int number, int divider) {
         return number / divider;
+    }
+     public ArrayList<Integer> getImpairNumbers(int max){
+        ArrayList<Integer> result = new ArrayList();
+       for(int i=0; i<= max; i++){
+           if(i % 2 != 0){
+               result.add(i);
+           }
+        }
+        return result;
     }
 }
