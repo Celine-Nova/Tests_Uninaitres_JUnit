@@ -1,11 +1,1 @@
-<<<<<<< HEAD
-com\poe\testsunitaires\distributor\Start.class
-com\poe\testsunitaires\distributor\Distributor.class
-com\poe\testsunitaires\distributor\StockDistributor.class
-com\poe\testsunitaires\string\Palindrome.class
-com\poe\testsunitaires\games\FizzBuzz.class
-com\poe\demotestdunitaires\calculator\Calculator.class
-com\poe\testsunitaires\distributor\Product.class
-=======
 com\poe\webdistributor\IndexServlet.class
->>>>>>> ajout web application dristributeur
