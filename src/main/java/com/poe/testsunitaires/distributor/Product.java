@@ -5,57 +5,42 @@
 package com.poe.testsunitaires.distributor;
 
 public class Product {
-    private int id;
-    private String name;
-    private float price;
-    private int quantity;
+    private String nom;
+    private float prix;
+    private int quantite;
 
-    public Product() {
+    public Product(String nom, float prix, int quantite) {
+      this.nom = nom;
+      this.prix = prix;
+      this.quantite = quantite;
+  }
+
+    public String getNom() {
+        return nom;
     }
 
-    public Product(int id, String name, float price, int quantity) {
-        this.id = id;
-        this.name = name;
-        this.price = price;
-        this.quantity = quantity;
+    public void setNom(String nom) {
+        this.nom = nom;
     }
 
-    public int getId() {
-        return id;
+    public float getPrix() {
+        return prix;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setPrix(float prix) {
+        this.prix = prix;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public float getPrice() {
-        return price;
-    }
-
-    public void setPrice(float price) {
-        this.price = price;
-    }
-
-    public int getQuantity() {
-        return quantity;
+    public int getQuantite() {
+        return quantite;
     }
 
     public void setQuantite(int quantite) {
-        this.quantity = quantite;
+        this.quantite = quantite;
     }
-
     @Override
     public String toString() {
-        return "Product{" + "id=" + id + ", name=" + name + ", price=" + price + ", quantity=" + quantity + '}';
+        return "Product{" + "nom=" + nom + ", prix=" + prix + ", quantite=" + quantite + '}';
     }
-    
-   
+
 }
