@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\mesProjetsOclock\POE\JUnit\DemoTestUnitaire\src\main\java\com\poe\demotestdunitaires\calculator\Calculator.java
 D:\mesProjetsOclock\POE\JUnit\DemoTestUnitaire\src\main\java\com\poe\testsunitaires\distributor\StockDistributor.java
 D:\mesProjetsOclock\POE\JUnit\DemoTestUnitaire\src\main\java\com\poe\testsunitaires\string\Palindrome.java
@@ -5,3 +6,6 @@ D:\mesProjetsOclock\POE\JUnit\DemoTestUnitaire\src\main\java\com\poe\testsunitai
 D:\mesProjetsOclock\POE\JUnit\DemoTestUnitaire\src\main\java\com\poe\testsunitaires\games\FizzBuzz.java
 D:\mesProjetsOclock\POE\JUnit\DemoTestUnitaire\src\main\java\com\poe\testsunitaires\distributor\Product.java
 D:\mesProjetsOclock\POE\JUnit\DemoTestUnitaire\src\main\java\com\poe\testsunitaires\distributor\Start.java
+=======
+C:\Users\cocot\Documents\POE JAVA\WebDistributor\src\main\java\com\poe\webdistributor\IndexServlet.java
+>>>>>>> ajout web application dristributeur
