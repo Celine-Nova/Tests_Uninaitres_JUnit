@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.138" tests="26" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.199" tests="26" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="FR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.3\bin"/>
-    <property name="sun.java.command" value="C:\Users\cocot\AppData\Local\Temp\surefire5188682592105916969\surefirebooter3283938987696711011.jar C:\Users\cocot\AppData\Local\Temp\surefire5188682592105916969 2022-06-09T10-59-50_811-jvmRun1 surefire16299320689359289633tmp surefire_013872275490869462416tmp"/>
+    <property name="sun.java.command" value="C:\Users\cocot\AppData\Local\Temp\surefire964661240137150057\surefirebooter4101695273728669302.jar C:\Users\cocot\AppData\Local\Temp\surefire964661240137150057 2022-06-09T16-46-01_388-jvmRun1 surefire8404451661635449511tmp surefire_012047479796352964681tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\mesProjetsOclock\POE\JUnit\DemoTestUnitaire\target\test-classes;D:\mesProjetsOclock\POE\JUnit\DemoTestUnitaire\target\classes;C:\Users\cocot\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\cocot\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\cocot\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\cocot\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\cocot\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\cocot\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\cocot\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\cocot\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\cocot\AppData\Local\Temp\surefire5188682592105916969\surefirebooter3283938987696711011.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\cocot\AppData\Local\Temp\surefire964661240137150057\surefirebooter4101695273728669302.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.3+8-LTS-111"/>
@@ -57,30 +57,30 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testParameterWithValueSource{int}[1]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.038"/>
-  <testcase name="testParameterWithValueSource{int}[2]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.001"/>
-  <testcase name="testParameterWithValueSource{int}[3]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.001"/>
-  <testcase name="testParameterWithValueSource{int}[4]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.001"/>
-  <testcase name="testAdd3Add2return5" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.002"/>
-  <testcase name="testDivideWithDivideAsZero" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.002"/>
+  <testcase name="testParameterWithValueSource{int}[1]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.052"/>
+  <testcase name="testParameterWithValueSource{int}[2]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.003"/>
+  <testcase name="testParameterWithValueSource{int}[3]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0"/>
+  <testcase name="testParameterWithValueSource{int}[4]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0"/>
+  <testcase name="testAdd3Add2return5" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.004"/>
+  <testcase name="testDivideWithDivideAsZero" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.006"/>
   <testcase name="testAdd{int, int}[1]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.001"/>
-  <testcase name="testAdd{int, int}[2]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0"/>
+  <testcase name="testAdd{int, int}[2]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.001"/>
   <testcase name="testAdd{int, int}[3]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.001"/>
   <testcase name="testAdd0Add0return0" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0"/>
   <testcase name="testMaxBetweenOneAndTwo" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0"/>
-  <testcase name="testMaxBetweenSamesValues" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.001"/>
-  <testcase name="testAddWithResult{int, int, int}[1]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.001"/>
-  <testcase name="testAddWithResult{int, int, int}[2]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.001"/>
-  <testcase name="testAddWithResult{int, int, int}[3]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0"/>
-  <testcase name="testMaxWithDatas{int, int, int}[1]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0"/>
+  <testcase name="testMaxBetweenSamesValues" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0"/>
+  <testcase name="testAddWithResult{int, int, int}[1]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.002"/>
+  <testcase name="testAddWithResult{int, int, int}[2]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.002"/>
+  <testcase name="testAddWithResult{int, int, int}[3]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.005"/>
+  <testcase name="testMaxWithDatas{int, int, int}[1]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.004"/>
   <testcase name="testMaxWithDatas{int, int, int}[2]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0"/>
-  <testcase name="testMaxWithDatas{int, int, int}[3]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.001"/>
-  <testcase name="testMaxWithDatas{int, int, int}[4]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0"/>
+  <testcase name="testMaxWithDatas{int, int, int}[3]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0"/>
+  <testcase name="testMaxWithDatas{int, int, int}[4]" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.001"/>
   <testcase name="testDivideWithInResult" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0"/>
-  <testcase name="testAdd2Add1return3" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.001"/>
+  <testcase name="testAdd2Add1return3" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0"/>
   <testcase name="testDivideWithFloatResult" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.001"/>
-  <testcase name="testMaxValue" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0"/>
+  <testcase name="testMaxValue" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.003"/>
   <testcase name="testAddLess5AndLess4returnLes9" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.001"/>
-  <testcase name="testBigNumber" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.001"/>
+  <testcase name="testBigNumber" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.002"/>
   <testcase name="TestImpairNumber" classname="com.poe.demotestsunitaires.caltulator.CalculatorTest" time="0.001"/>
 </testsuite>
