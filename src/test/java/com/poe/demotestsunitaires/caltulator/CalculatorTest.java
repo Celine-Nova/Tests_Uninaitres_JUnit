@@ -5,7 +5,7 @@ package com.poe.demotestsunitaires.caltulator;
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
  */
 
-import com.poe.demotestdunitaired.calculator.Calculator;
+import com.poe.demotestdunitaires.calculator.Calculator;
 import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
